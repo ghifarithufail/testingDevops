@@ -1,0 +1,98 @@
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> MotorTua </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="navbar">
+            <img src="gambar/menu-icon.png" class="menu-icon" onclick="menutoggle()">
+                </div>        
+            </div>
+        
+        <div class="small-container detail-motor">
+        <div class="row">
+            <div class="col-2">
+            <img src="gambar/gambar-5.jpeg" width="100%">
+            </div>
+            <div class="col-2">
+            <h1>Kawasaki W800</h1>
+                <p>Kawasaki W800 is a big motorcycle, 
+                    because the engine has a capacity of 773cc and uses a 2-cylinder Vertical Twin engine with a Fuel Injection combustion system. 
+                    The machine blends perfectly with the vintage style that looks very retro and is wrapped in a body made entirely of metal.</p>
+            </div>
+            </div>
+        </div>
+        
+        <div class="small-container">
+		<h2 class="title">Our Collection</h2>
+		<div class="row">
+
+			<div class="col-4">
+                <a href="detail_motor-2.html">
+				<img src="gambar/gambar-2.jpeg">
+                </a>
+				<h4>kawasaki w250</h4>
+			</div>
+
+            <div class="col-4">
+                <a href="detail_motor-3.html">
+				<img src="gambar/gambar-3.jpeg">
+                </a>
+				<h4>Royal Enfield Classic 350</h4>
+			</div>
+
+            <div class="col-4">
+                <a href="detail_motor-4.html">
+				<img src="gambar/gambar-4.jpeg">
+                </a>
+				<h4>Kawasaki W800</h4>
+			</div>
+
+
+
+            </div>
+        </div>
+        
+	<script>
+	var MenuItems = document.getElementById("MenuItems");
+	
+	MenuItems.style.maxHeight = "0px";
+	
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px")
+			{
+				MenuItems.style.maxHeight = "200px";
+			}
+		else
+			{
+				MenuItems.style.maxHeight = "0px";
+			}
+	}
+	</script>                    
+        
+        <footer>
+            <div class="footer-content">
+            <h3>MotorTua</h3>
+                <p> motor tua merupakan sebuah website dimana anda akan bisa melihat 
+                    motor-motor yang menarik dari seluruh dunia baik yang modern maupun yang klasik</p>
+                <ul class="socials">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-github"></i></a></li>
+                    <li><a href="#"><i class="fab fa-vk"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright 2021</p>
+            </div>
+        </footer>
+
+    
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reservation</title>
+        <meta charset="utf-8">
+        <meta http-equiv="x-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styleR.css">
+        <script src="https://kit.fontawesome.com/0b5cba3b4d.js" crossorigin="anonymous"></script>
+    </head>
+    <body style="background-color: #009688">
+        <div class="hero">
+            <form action="prosesreservasi.html">
+                <h1>Reservation Ticket(s)</h1>
+                <div class="row">
+                    <div class="isian">
+                        <input type="text" id="name" name="fullname" required>
+                    <label for="name"><i class="fas fa-user"></i> Full Name</label>
+                    </div>
+                    <div class="isian">
+                        <input type="number" id="number" name="phonenumber"required>
+                    <label for="number"><i class="fas fa-phone-square-alt"></i> Phone No</label>
+                    </div>
+                <div class="isian">
+                    <input type="email" id="email" name="email" required>
+                <label for="email"><i class="fas fa-envelope"></i> Email Id</label>
+                </div>
+                <div class="isian">
+                    <input type="text" id="username" name="username"required>
+                    <label for="username"><i class="fas fa-user"></i> Username</label>
+                </div>
+                <div class="isian">
+                    <input type="number" id="rsvp" name="rsvp" required>
+                    <label for="rsvp"><i class="fas fa-ticket-alt"></i> Reservation Ticket</label>
+                </div>
+                <div class="isian">
+                    <input type="text" id="date" name="date"required>
+                    <label for="date"><i class="fas fa-calendar-week"></i> date Reservation</label>
+                </div>
+                <button type="submit"><i class="fas fa-paper-plane"></i> SUBMIT</button>
+                <a href="login.html">
+                    <button type="button">BACK</button>
+                </a>
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
